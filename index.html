@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Startup</title>
+  <!-- meta tag allows us add more information to our html page 
+   viewport allows us to create web pages that are mobile first ie 
+  it will let the browser know that this page should work on mobile devies
+  and things lke scrolling zooming and touching on a mobile device is going to work with this tag.
+  Bootstrap is developed mobile first, a strategy in which 
+  we optimize code for mobile devices first and then scale up components as necessary using CSS media queries. 
+  To ensure proper rendering and touch zooming for all devices, add the responsive viewport meta tag to your <head>.-->
+  <meta charset="utf-8">
+  <!-- utf-8 is a form of encoding to write texts on web pages -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <!-- Bootstrap CSS from a CDN. This way you don't have to include the bootstrap file yourself -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Your own stylesheet -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container d-flex align-items-center h-100">
+    <div class="row">
+      <!-- text-uppercase is a class in boostrap to make text uppercase -->
+
+      <header class="text-center col-12">
+        <h1 class="text-uppercase"><strong>The biggest Startup event of this year</strong></h1>
+      </header>
+      <div class="buffer">
+
+      </div>
+      <section class="text-center col-12">
+        <hr>
+        <a href="https://mailchi.mp/a2a876c4e466/startup">
+          <button class="btn btn-primary button-xl">Find out More</button></a>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
